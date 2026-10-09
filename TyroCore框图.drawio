@@ -22,7 +22,7 @@
         <mxCell id="fPPrb_9FBuDfT1ozumxR-7" edge="1" parent="1" source="fPPrb_9FBuDfT1ozumxR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fPPrb_9FBuDfT1ozumxR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fPPrb_9FBuDfT1ozumxR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="指令缓冲区（InstBuf）" vertex="1">
+        <mxCell id="fPPrb_9FBuDfT1ozumxR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;指令缓冲区（InstBuf）&lt;/div&gt;4 entries" vertex="1">
           <mxGeometry height="40" width="180" x="110" y="340" as="geometry" />
         </mxCell>
         <mxCell id="fPPrb_9FBuDfT1ozumxR-8" edge="1" parent="1" source="fPPrb_9FBuDfT1ozumxR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="fPPrb_9FBuDfT1ozumxR-4">
@@ -34,11 +34,23 @@
         <mxCell id="fPPrb_9FBuDfT1ozumxR-11" edge="1" parent="1" source="fPPrb_9FBuDfT1ozumxR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="fPPrb_9FBuDfT1ozumxR-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="s5x6OTimf-It0Eh8RmhU-3" edge="1" parent="1" source="fPPrb_9FBuDfT1ozumxR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="s5x6OTimf-It0Eh8RmhU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fPPrb_9FBuDfT1ozumxR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="寄存器重命名（RR）" vertex="1">
           <mxGeometry height="40" width="180" x="110" y="460" as="geometry" />
         </mxCell>
         <mxCell id="fPPrb_9FBuDfT1ozumxR-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;" value="指令调度（Dispatch）" vertex="1">
           <mxGeometry height="180" width="30" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s5x6OTimf-It0Eh8RmhU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;重排序缓冲区（ROB）&lt;/div&gt;&lt;div&gt;8 entries&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="110" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="s5x6OTimf-It0Eh8RmhU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Integer PRF&lt;/div&gt;&lt;div&gt;64 entries&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="110" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="s5x6OTimf-It0Eh8RmhU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Free List&lt;/div&gt;&lt;div&gt;32 entries&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="110" y="710" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
